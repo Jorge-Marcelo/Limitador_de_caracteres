@@ -78,6 +78,25 @@ margin-top: 15px;
 margin-bottom: 30px;
 }
 
+
+/*Animação com sprite*/
+.animation{
+width: calc(800px/8);
+height: 101px;
+background: url("../anim/Amy.png");
+animation: animation 1s steps(8) infinite;
+}
+
+
+@keyframes animation {
+from{
+background-position: 0;
+}
+to{
+background-position: 800px;
+}
+}
+
 /*Classes de redes sociais*/
 button {
 margin: 0 7px;
